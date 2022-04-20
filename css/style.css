@@ -351,6 +351,10 @@
     justify-self: start;
 }
 
+.services--image__position__3 {
+    justify-self: end;
+}
+
 .services--image {
     width: 40em;
 }

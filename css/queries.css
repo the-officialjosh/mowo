@@ -239,6 +239,9 @@
                 padding-top: 8rem;
                 padding-bottom: 4rem;
             }
+            .header__image {
+                margin-left: -14rem;
+            }
             .partners {
                 padding-top: 8rem;
             }

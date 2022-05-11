@@ -100,8 +100,8 @@
     position: relative;
     left: 0;
     top: 0;
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     pointer-events: none;
     transition: 0.1s;
     display: none;
@@ -111,8 +111,8 @@
 .menu-icon-wrapper svg {
     position: absolute;
     top: -30px;
-    left: -50px;
-    transform: scale(0.1);
+    left: -40px;
+    transform: scale(0.09);
     transform-origin: 0 0;
 }
 

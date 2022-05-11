@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="js/script.js" defer></script>
     <title>Mowo</title>
 </head>
@@ -58,17 +59,17 @@
         
 <!-- HERO SECTION -->
         <main class="header__title">
-          <div class="header__title--primary">
+          <div class="header__title--primary" data-aos="fade-up">
             Banking Made Easy and Accessible.
           </div>
-          <div class="header__title--secondary header--container">
+          <div class="header__title--secondary header--container"data-aos="fade-up">
             With Mowo Financials, you can send or <br class="hidden" />
             receive money easily from any part of the globe, payment can be done
             easily and smoothly with just a click away.
           </div>
-          <button class="btns btn--text">Get Started</button>
+          <button class="btns btn--text" data-aos="fade-up">Get Started</button>
           <!-- HERO IMAGE -->
-          <picture class="header__img">
+          <picture class="header__img" data-aos="fade-left">
             <!-- <source media="(max-width: 75em)" 
                 srcset="img/hero-img.svg"  alt="Phone App"> -->
           <img src="img/hero-img.png" class="header__image"  alt="Phone App">
@@ -79,7 +80,7 @@
     <!-- OTHER SECTIONS ON SCROLL -->
     <main class="main">
         <!-- FEATURES SECTION -->
-      <section class="features">
+      <section class="features" data-aos="fade-up">
         <div class="features--grid">
           <div class="features--img">
             <img src="img/security.svg" alt="security" />
@@ -120,10 +121,10 @@
       <!-- SERVICES SECTION - HAD TO USE ARTICLE BEFORE SECTION TAG TO SET A COLOR OVER THE CONTAINER PADDING  -->
       <article class="services__color">
         <section class="services">
-          <div class="services--title__primary">Services We Render</div>
+          <div class="services--title__primary" data-aos="fade-up">Services We Render</div>
           <div class="services--grid">
             <!-- STEP 01 -->
-            <div class="services--textbox">
+            <div class="services--textbox" data-aos="fade-up">
               <div class="services--title__secondary">
                 QR Code Payment Services
               </div>
@@ -146,7 +147,7 @@
                 </div>
               </div>
             </div>
-            <div class="services--image__position">
+            <div class="services--image__position" data-aos="fade-left">
               <img
                 class="services--image"
                 src="img/qr-code.png"
@@ -155,14 +156,14 @@
             </div>
 
             <!-- STEP 2 -->
-            <div class="services--image__position__2">
+            <div class="services--image__position__2" data-aos="fade-left">
               <img
                 class="services--image"
                 src="img/customer.png"
                 alt="customer"
               />
             </div>
-            <div class="services--textbox">
+            <div class="services--textbox" data-aos="fade-up">
               <div class="services--title__secondary">
                 24/7 Customer Service
               </div>
@@ -186,7 +187,7 @@
               </div>
             </div>
             <!-- STEP 03 -->
-            <div class="services--textbox">
+            <div class="services--textbox" data-aos="fade-up">
               <div class="services--title__secondary">
                 Select What Card You Prefer
               </div>
@@ -209,7 +210,7 @@
                 </div>
               </div>
             </div>
-            <div class="services--image__position__3">
+            <div class="services--image__position__3" data-aos="fade-left">
               <img class="services--image" src="img/cards.png" alt="cards" />
             </div>
           </div>
@@ -217,7 +218,7 @@
       </article>
       <!-- PARTNERS SECTION -->
       <section class="partners">
-        <div class="partners--text">
+        <div class="partners--text" data-aos="fade-up">
           <div class="partners--text__primary">Meet Our Lovely Partners</div>
           <div class="partners--logo">
             <div class="partners--logo__placed">
@@ -256,7 +257,7 @@
       </section>
       <!-- SUBSCRIBE SECTION -->
       <section class="subscribe">
-        <div class="subscribe--text-box">
+        <div class="subscribe--text-box" data-aos="fade-up">
           <div class="subscribe--title__primary">Subscribe Newsletter</div>
           <div class="subscribe--paragraph">Be among the first to hear about the latest offers when you subscribe to our newsletter.</div>
           <form class="subscribe--input" name="sign-up">
@@ -270,7 +271,7 @@
       </section>
 <!-- FOOTER SECTION -->
     <section class="footer--color">
-        <section class="footer">
+        <section class="footer" data-aos="fade-up">
             <div class="footer--logo-column">
                 <img src="img/footer-logo.svg" class="footer--logo" alt="footer Logo"/>
                 <p class="footer--text">With Mowo Financials, you can send or
@@ -297,7 +298,7 @@
                     </ul>
                 </div>
         </div>
-        <div class="footer--contact-column">
+        <div class="footer--contact-column" data-aos="fade-up">
             <div class="footer--title">Contact</div>
             <div class="footer--contact-details">
                 <div class="footer--contacts">
@@ -311,7 +312,7 @@
             </div>
 
         </div>
-        <div class="footer--social-column">
+        <div class="footer--social-column" data-aos="fade-up">
             <div class="footer--title">Socials</div>
             <div class="footer--socials">
                 <img src="img/linkedin.svg" alt="linkedin icon" class="footer--social-icon">
@@ -321,7 +322,7 @@
             </div>
         </div>
         </section>
-        <aside class="footer--foot-note">
+        <aside class="footer--foot-note" data-aos="fade-up">
             <div class="footer--copyright">© 2021 Mowo Financials. All rights reserved. </div>
             <div class="footer--privacy-policies">
                 <p class="footer--privacy">Privacy Policy</p>
@@ -331,7 +332,10 @@
 
         </section>
         </main>
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 

@@ -101,6 +101,30 @@ body {
     align-items: center;
 }
 
+.btns,
+.btns:link,
+.btns:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.5rem 3.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    font-family: inherit;
+    transition: all 0.3s;
+    line-height: 2rem;
+    /* identical to box height */
+    width: 17rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn--form {
     background-color: var(--primary);
     color: var(--white);

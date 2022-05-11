@@ -31,6 +31,7 @@
     /* padding: 0 6rem; */
     z-index: 100;
     /* padding-top: 2rem; */
+    overflow: hidden;
 }
 
 .nav__logo {
@@ -178,6 +179,7 @@
     padding: 0 12rem;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
 }
 
 .header__title {
@@ -252,6 +254,7 @@
     padding: 9.6rem 12rem;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
 }
 
 .features--grid {
@@ -295,6 +298,7 @@
     background-color: var(--services);
     padding-bottom: 20rem;
     position: relative;
+    overflow: hidden;
 }
 
 .services__color::after {
@@ -402,6 +406,7 @@
     margin: 0 auto;
     padding-top: 13.2rem;
     padding-bottom: 27rem;
+    overflow: hidden;
 }
 
 .partners--text {
@@ -531,6 +536,7 @@
     background-color: #f4faf8;
     padding-top: 31.3rem;
     z-index: -6;
+    overflow: hidden;
 }
 
 .footer {
@@ -618,6 +624,7 @@
     margin: 0 auto;
     padding-bottom: 4rem;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .footer--privacy-policies {

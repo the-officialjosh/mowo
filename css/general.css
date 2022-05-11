@@ -8,6 +8,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    /* background-color: aquamarine; */
 }
 
 body {
@@ -15,10 +16,10 @@ body {
     line-height: 1;
     font-weight: 400;
     color: var(--text-color);
+    /* overflow: hidden !important; */
+    position: relative;
     /* background-color: #333; */
-    overflow-x: hidden;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+    /* background-color: antiquewhite; */
 }
 
 .container {

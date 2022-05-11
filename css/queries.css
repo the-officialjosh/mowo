@@ -202,9 +202,6 @@
                 padding: 2rem 2.5rem;
                 font-size: 3rem;
             }
-            body {
-                overflow-x: hidden;
-            }
         }
         /**************************/
         /* BELOW 704px (Smaller tablets) */
@@ -245,7 +242,7 @@
                 padding-bottom: 4rem;
             }
             .header__image {
-                margin-left: -14rem;
+                margin-left: -16rem;
             }
             .partners {
                 padding-top: 8rem;

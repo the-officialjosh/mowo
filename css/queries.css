@@ -202,6 +202,9 @@
                 padding: 2rem 2.5rem;
                 font-size: 3rem;
             }
+            body {
+                overflow-x: hidden;
+            }
         }
         /**************************/
         /* BELOW 704px (Smaller tablets) */

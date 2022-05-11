@@ -83,6 +83,7 @@
 .btn--form:active {
     background-color: var(--background);
     box-shadow: 0 5px 20px var(--primary);
+    cursor: pointer;
 }
 
 
@@ -221,6 +222,11 @@
 .btn--text {
     color: var(--white);
     background-color: var(--primary);
+}
+
+.btn--text:hover,
+.btn--text:active {
+    box-shadow: 0px 5px 15px var(--primary);
 }
 
 

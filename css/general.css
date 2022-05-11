@@ -125,17 +125,6 @@ body {
     align-items: center;
 }
 
-.btn:hover,
-.btn:active {
-    box-shadow: 0px 5px 15px var(--primary);
-}
-
-.btns:hover,
-.btns:active {
-    box-shadow: 0px 5px 15px var(--primary);
-    cursor: pointer;
-}
-
 .btn--form {
     background-color: var(--primary);
     color: var(--white);

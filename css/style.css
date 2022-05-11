@@ -78,10 +78,17 @@
 }
 
 .btn--outline:hover,
-.btn--outline:active,
-.btn--form:hover,
-.btn--form:active {
+.btn--outline:active {
     background-color: var(--background);
+    box-shadow: 0 5px 20px var(--primary);
+    cursor: pointer;
+}
+
+.btn--form:hover,
+.btn--form:active,
+.btn--text:hover,
+.btn--text:active {
+    /* background-color: var(--background); */
     box-shadow: 0 5px 20px var(--primary);
     cursor: pointer;
 }
